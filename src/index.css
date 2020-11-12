@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(96, 29, 158);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.content {
+  background-color: #fff;
+  width: 70%;
+  margin: auto;
+  margin-top: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 2em 1em;
+}
+.content h2 {
+  width: 30%;
+}
+.questions {
+  width: 65%;
+}
+.question {
+  overflow: hidden;
+  padding: 1em;
+  position: relative;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 19px 5px rgba(0, 0, 0, 0.65);
+  box-shadow: 5px 5px 19px 1px rgba(0, 0, 0, 0.65);
+  margin: 2em auto;
+  margin-top: 0em;
+}
+.btn {
+  border-radius: 50%;
+  display: block;
+  font-size: 1em;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+h3 {
+  margin-right: 3em;
+}
+p {
+  height: 0px;
+  margin-top: 1em;
+  transition: 0.2s ease-in-out;
+  visibility: hidden;
+}
+.show {
+  visibility: visible;
+  height: 80px;
+  overflow-y: auto;
+}
+.hide {
+  height: 0px;
+  display: none;
+}
