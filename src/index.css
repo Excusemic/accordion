@@ -72,3 +72,13 @@ p {
   height: 0px;
   display: none;
 }
+
+@media only screen and (max-width: 650px) {
+  .content h2 {
+    margin-bottom: 3em;
+    width: 100%;
+  }
+  .questions {
+    width: 100%;
+  }
+}

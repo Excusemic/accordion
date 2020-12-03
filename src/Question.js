@@ -6,7 +6,7 @@ const Question = (props) => {
   return (
     <div className="question">
       <h3>{question}</h3>
-      <p className={!isColapsed && "show"}>{answer}</p>
+      <p className={(!isColapsed && "show") || null}>{answer}</p>
       <button className="btn" onClick={() => setIsColapsed(!isColapsed)}>
         {isColapsed ? "+" : "-"}
       </button>
